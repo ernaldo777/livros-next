@@ -5,7 +5,7 @@ import { LinhaLivro } from '../componentes/LinhaLivro';
 import Livro from '../classes/modelo/Livro';
 
 // URL base da API
-const baseURL: string = "http://localhost:3000/api/livros";
+const baseURL: string = "/api/livros";
 
 const LivroLista: React.FC = () => {
   const [livros, setLivros] = useState<Array<Livro>>([]);

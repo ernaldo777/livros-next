@@ -10,7 +10,8 @@ import Livro from '../classes/modelo/Livro';
 const controleEditora = new ControleEditora();
 
 // Constante baseURL para as requisições
-const baseURL: string = "http://localhost:3000/api/livros";
+// const baseURL: string = "http://localhost:3000/api/livros";
+const baseURL: string = "/api/livros";
 
 // Função assíncrona para incluir um livro
 const incluirLivro = async (livro: Livro) => {
